@@ -1,0 +1,12 @@
+CREATE TABLE favoritebooks (id INTEGER PRIMARY KEY,name TEXT, rating INTEGER);
+
+/** Favorite bookS
+The Hitchhiker’s Guide to the Galaxy, Douglas Adams.(1)
+Calvin - Hobbes, Bill Watterson) (2)
+Good Omens, Terry Pratchett, Neil Gaiman, (3)
+**/
+
+INSERT into favoritebooks VALUES  (3, "The Hitchhiker’s Guide to the Galaxy, Douglas Adams.", 1),
+(6,"Calvin - Hobbes, Bill Watterson)", 2),
+(11, "Good Omens, Terry Pratchett, Neil Gaiman", 3);
+SELECT * FROM favoritebooks;
